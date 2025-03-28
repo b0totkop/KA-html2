@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólió</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="container-fluid terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="terminal-btn close"></span>
+                <span class="terminal-btn minimize"></span>
+                <span class="terminal-btn maximize"></span>
+            </div>
+            <div class="terminal-title">Portfólió</div>
+        </div>
+        <div class="terminal-body" id="terminal">
+            <div class="terminal-content" id="terminal-content">
+                <pre class="gname">
+__  __                   __
+| |/ /___  _ __  _ __   /_/_ _ __  _   _ 
+| ' // _ \| '_ \| '_ \ / _` | '_ \| | | |
+| . \ (_) | |_) | |_) | (_| | | | | |_| |
+|_|\_\___/| .__/| .__/ \__,_|_| |_|\__, |
+          |_|   |_|                |___/
+                </pre>
+                <p>Üdvözöllek a portfólió oldalamon!</p>
+                <p>Írd be a <span class="command">/help</span> parancsot, hogy megtudd az összes elérhető parancsokat.</p>
+                <div class="command-line">
+                    <span class="prompt">koppany@portfolio:~$</span>
+                    <input type="text" class="command-input" id="command-input" autofocus>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="help-content" class="hidden-content">
+        <h4>Elérhető parancsok:</h4>
+        <ul>
+            <li><span class="command">/help</span> - Terminál segítség</li>
+            <li><span class="command">/about</span> - Tudj meg többet rólam</li>
+            <li><span class="command">/skills</span> - Technológiák, keretrendszerek és egyéb</li>
+            <li><span class="command">/projects</span> - Projektjeim</li>
+            <li><span class="command">/contact</span> - Elérhetőségeim</li>
+            <li><span class="command">/clear</span> - Terminál törlés</li>
+        </ul>
+    </div>
+
+    <div id="about-content" class="hidden-content">
+        <h4>Rólam:</h4>
+        <p>Helló! Tóth-Kalocsai Koppány Attila vagyok és full-stack fejlesztőként tanulok.</p>
+        <p>Szeretem az új kihívásokat és folyamatosan fejlesztem magam a modern technológiák területén.</p>
+        <p>Szeretek számítógépes játékokkal játszani. Hobbijaim közé tartozik a LEGO építés, Hotwheels és Matchbox autók gyűjtés és drónozás.</p>
+    </div>
+
+    <div id="skills-content" class="hidden-content">
+        <h4>Technológiák:</h4>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C#</li>
+            <li>Lua</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Vue.js</li>
+            <li>Node.js</li>
+            <li>Bootstrap</li>
+            <li>Git/GitHub</li>
+            <li>Blender</li>
+            <li>Unity</li>
+        </ul>
+    </div>
+
+    <div id="projects-content" class="hidden-content">
+        <h4>A projektjeim:</h4>
+        <div class="project">
+            <h5>VasváriApp</h5>
+            <p>Diákoknak, tanároknak és adminisztrátoroknak. Órarend, óracserék és hírek létrehozása a weboldalon. Különböző iskolai beállítások, iskolai adatok és felhasználók kezelése.</p>
+            <p><span class="command">Technológiák:</span> Vue.js, HTML, CSS, JavaScript, Bootstrap</p>
+            <p><span class="command">Weboldal:</span> <a href="https://vasvariapp.hu" target="_blank">vasvariapp.hu</a></p>
+            <p><span class="command">Github:</span> <a href="https://github.com/vizsgaremek-2024-2025-nappali-1-13b/vasvari-app" target="_blank">vasvariapp</a></p>
+        </div>
+        <div class="project">
+            <h5>Időpont foglalás</h5>
+            <p>Időpont foglaló alkalmazás, foglalásnál regex validációval beleépítve. Amely json szerveren tárolja ez a foglalt időpontokat, valamint vitest tesztesetekkel.</p>
+            <p><span class="command">Technológiák:</span> Vue.js, HTML, CSS, JavaScript, Bootstrap</p>
+            <p><span class="command">Link:</span> <a href="https://github.com/b0totkop/vue-br/tree/main/idopont" target="_blank">idopont</a></p>
+        </div>
+        <div class="project">
+            <h5>BestestMTA</h5>
+            <p>Multi Theft Auto: San Andreas szerver. Járművek és scriptek egy része egyedileg készítve.</p>
+            <p><span class="command">Technológiák:</span> Lua, .dff, .txd, xml</p>
+            <p><span class="command">Link:</span> <a href="https://github.com/jaydendeveloper/bestestmta" target="_blank">bestestmta</a></p>
+        </div>
+        <div class="project">
+            <h5>Portfólió</h5>
+            <p>Command prompt stílusú portfólió oldal.</p>
+            <p><span class="command">Technológiák:</span> HTML, CSS, JavaScript, Bootstrap</p>
+            <p><span class="command">Link:</span> <a href="https://github.com/b0totkop/KA-html2/tree/main/portfolio" target="_blank">portfolio</a></p>
+        </div>
+    </div>
+
+    <div id="contact-content" class="hidden-content">
+        <h4>Elérhetőség:</h4>
+        <ul>
+            <li><span class="command">Email:</span> b0totkop@vasvari.org</li>
+            <li><span class="command">GitHub:</span> <a href="https://github.com/b0totkop" target="_blank">b0totkop</a></li>
+        </ul>
+    </div>
+</body>
+</html>

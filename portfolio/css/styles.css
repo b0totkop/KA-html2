@@ -1,0 +1,98 @@
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+}
+
+.terminal-container {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    background-color: #333;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.terminal-title {
+    flex-grow: 1;
+    text-align: center;
+    color: #aaa;
+}
+
+.terminal-body {
+    background-color: #1a1a1a;
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+    border: 1px solid #333;
+}
+
+.gname {
+    color: #4af626;
+}
+
+.command-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.prompt {
+    color: #4af626;
+    margin-right: 10px;
+}
+
+.command-input {
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+    outline: none;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.command {
+    color: #4af626;
+    font-weight: bold;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-top: 1px solid #333;
+}
+
+a {
+    color: #4af626;
+    text-decoration: underline;
+}
